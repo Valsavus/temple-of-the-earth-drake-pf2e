@@ -1,7 +1,7 @@
 {
   "id": "temple-of-the-earth-drake-pf2e",
   "title": "Temple of the Earth Drake PF2e",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -17,7 +17,7 @@
     }
   ],
   "manifest": "https://raw.githubusercontent.com/Valsavus/Temple-of-the-earth-drake-PF2E/refs/heads/main/module.json",
-  "download": "https://github.com/Valsavus/temple-of-the-earth-drake-pf2e/archive/refs/tags/1.0.2.zip",  
+  "download": "https://github.com/Valsavus/temple-of-the-earth-drake-pf2e/archive/refs/tags/1.0.3.zip",
   "url": "https://www.patreon.com/c/DarkSunPathfinder2e",
   "packs": [
     {
@@ -31,5 +31,14 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "dark-sun-foundry-module-pf2e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
 }
